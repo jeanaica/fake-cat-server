@@ -4,7 +4,9 @@
   "description": "Cat fake API server using json-server",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "generate": "node generate.js",
+    "dev": "NODE_ENV=development node server.js",
+    "start": "NODE_ENV=production node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,8 @@
   },
   "homepage": "https://github.com/jeanaica/fake-cat-server#readme",
   "dependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "clone": "^2.1.2",
     "json-server": "^0.17.1"
   }
 }
