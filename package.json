@@ -5,8 +5,7 @@
   "main": "server.js",
   "scripts": {
     "generate": "node generate.js",
-    "dev": "NODE_ENV=development node server.js",
-    "start": "NODE_ENV=production node server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -19,14 +18,13 @@
     "node"
   ],
   "author": "Jeanaica Suplido",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/jeanaica/fake-cat-server/issues"
   },
   "homepage": "https://github.com/jeanaica/fake-cat-server#readme",
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
-    "clone": "^2.1.2",
     "json-server": "^0.17.1"
   }
 }
